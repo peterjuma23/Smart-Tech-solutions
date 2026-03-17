@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Tech Solutions - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-microchip"></i>
+                <h1>Smart Tech <span>Solutions</span></h1>
+            </div>
+            <p class="tagline">Innovative IT Solutions for Modern Business</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container nav-container">
+            <ul class="nav-links">
+                <li><a href="Home.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <h2>Your Trusted Technology Partner</h2>
+                    <p>We provide cutting-edge tech solutions to help your business grow and succeed in the digital age.</p>
+                    <a href="services.html" class="btn-primary">Explore Services</a>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&auto=format&fit=crop" alt="Tech team working">
+                </div>
+            </section>
+
+            <!-- Features Section -->
+            <section class="features">
+                <h2>Why Choose Us?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-rocket"></i>
+                        <h3>Fast & Reliable</h3>
+                        <p>Lightning-fast solutions with 99.9% uptime guarantee</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Secure</h3>
+                        <p>Enterprise-grade security for all your business data</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-headset"></i>
+                        <h3>24/7 Support</h3>
+                        <p>Round-the-clock technical support for peace of mind</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Scalable</h3>
+                        <p>Solutions that grow with your business needs</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Image Gallery -->
+            <section class="gallery">
+                <h2>Our Workspace</h2>
+                <div class="image-row">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&auto=format&fit=crop" alt="Modern office">
+                    <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=600&auto=format&fit=crop" alt="Meeting room">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&auto=format&fit=crop" alt="Developer workspace">
+                </div>
+            </section>
+
+            <!-- Contact Form Section -->
+            <section class="contact-section">
+                <h2>Get In Touch</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Bondo juction, Siaya Town</p>
+                        <p><i class="fas fa-phone"></i> 07-099-224-76</p>
+                        <p><i class="fas fa-envelope"></i> info@smarttechsolutions.com</p>
+                        <p><i class="fas fa-clock"></i> Mon-Fri: 9:00 AM - 6:00 PM</p>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Send Us a Message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" placeholder="John komoko">
+                                <small class="error-message" id="nameError"></small>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" placeholder="johnkomoko@gmail.com">
+                                <small class="error-message" id="emailError"></small>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="4" placeholder="How can we help you?"></textarea>
+                                <small class="error-message" id="messageError"></small>
+                            </div>
+                            <button type="submit" class="btn-submit">Send Message</button>
+                            <p id="formSuccess" class="success-message"></p>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-info">
+                <p>&copy; 2026 Smart Tech Solutions. All rights reserved.</p>
+                <p><i class="fas fa-envelope"></i> info@smarttechsolutions.com | <i class="fas fa-phone"></i> 07-099-224-76</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
